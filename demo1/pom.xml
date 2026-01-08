@@ -11,7 +11,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>21</maven.compiler.release>
-    <exec.mainClass>javaone.oop.OOPMain</exec.mainClass>
+    <exec.mainClass>javaone.oop.Student</exec.mainClass>
   </properties>
 
   <name>OOP</name>
