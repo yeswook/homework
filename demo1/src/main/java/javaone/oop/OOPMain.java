@@ -11,6 +11,6 @@ package javaone.oop;
 public class OOPMain {
 
     public static void main(String[] args) {
-        System.out.println("Hello OOP World!");
+        System.out.println("Hello World!");
     }
 }
