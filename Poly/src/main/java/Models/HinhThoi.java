@@ -55,6 +55,6 @@ public class HinhThoi extends Polygon {
 
     @Override
     public void tinhCV() {
-        System.out.println("Chu vi Hinh Thoi:" + this.canh * 2);
+        System.out.println("Chu vi Hinh Thoi:" + this.canh * 4);
     }
 }
