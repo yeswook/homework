@@ -10,7 +10,7 @@ package Models;
  */
 public class HinhThoi extends Polygon {
 
-    public int canh;
+    public int canh
     public int chieucao;
 
     public HinhThoi(int canh, int chieucao) {
