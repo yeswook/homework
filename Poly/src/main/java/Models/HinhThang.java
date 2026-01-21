@@ -97,6 +97,6 @@ public class HinhThang extends Polygon {
 
         System.out.println("Hình: " + ht.getName());
         ht.tinhDT();
-        ht.tinhCV()
+        ht.tinhCV();
     }
 }
