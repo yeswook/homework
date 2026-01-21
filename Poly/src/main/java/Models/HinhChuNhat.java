@@ -37,10 +37,12 @@ public class HinhChuNhat extends TuGiac {
         this.rong = rong;
     }
 
+    @Override
     public String getName() {
         return Name;
     }
 
+    @Override
     public void setName(String Name) {
         this.Name = Name;
     }
