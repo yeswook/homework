@@ -21,15 +21,17 @@ public class Animals {
         chicken.Keu();
         Duck duck = new Duck("Duck");
         duck.Keu();
-        
+        Conco co = new Conco("Co");
+        co.Keu();
 
         Animal ani1 = new Animal("Ani1");
         Animal ani2 = new Chicken("Ani2");
         Animal ani3 = new Duck("Ani3");
-        Animal ani4 = new Trau("Ani4");
+        Animal ani4 = new Conco("Ani4");
         ani1.Keu();
         ani2.Keu();
         ani3.Keu();
         ani4.Keu();
+        
     }
 }

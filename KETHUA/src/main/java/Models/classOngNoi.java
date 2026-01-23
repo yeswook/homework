@@ -8,10 +8,12 @@ public class classOngNoi extends classOngCo {
     public String BankCard;
 
     public classOngNoi() {
+        super();
         System.out.println("Constructor ông Nội");
     }
 
     public classOngNoi(String BankCard) {
+        super();
         this.BankCard = BankCard;
     }
 

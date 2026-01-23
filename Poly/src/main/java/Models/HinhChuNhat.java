@@ -11,6 +11,10 @@ package Models;
 public class HinhChuNhat extends TuGiac {
 
     public int dai, rong;
+    
+    public static void tinhDienTich(int dai,int rong){
+        System.out.println("Diện tích hình chữ nhật: " + dai * rong);
+    }
 
     public HinhChuNhat(int dai, int rong) {
         this.dai = dai;

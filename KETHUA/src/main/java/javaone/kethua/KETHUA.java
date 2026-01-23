@@ -18,6 +18,7 @@ public class KETHUA {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Tổng thành viên: " + classOngCo.TongThanhVien);
         classOngCo ongCo = null;
         classOngNoi ongNoi = null;
         classCha cha = null;
@@ -45,7 +46,7 @@ public class KETHUA {
                 case 0:
                     System.out.println("Thoát chương trình.");
                     sc.close();
-                    return;
+                    break;
 
                 case 1:
                     System.out.print("Nhập CCCD: ");
@@ -133,7 +134,10 @@ public class KETHUA {
                 default:
                     System.out.println("Lựa chọn không hợp lệ. Vui lòng chọn 0-4.");
             }
+            if(choice == 0)
+                break;
         }
+        System.out.println("Tổng thành viên: " + classOngCo.TongThanhVien);
     }
 
     private static String formatOngCo(classOngCo o) {

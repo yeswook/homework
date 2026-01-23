@@ -9,18 +9,23 @@ package Models;
  * @author Dell
  */
 public class classOngCo extends Object{
+    public static int TongThanhVien = 0;
     public String CCCD;
     public String hoTen;
     public String namSinh;
+    
+    
 
     public classOngCo() {
         System.out.println("Constructor ông Cố");
+        TongThanhVien  += 1;
     }
 
     public classOngCo(String CCCD, String hoTen, String namSinh) {
         this.CCCD = CCCD;
         this.hoTen = hoTen;
         this.namSinh = namSinh;
+        TongThanhVien  += 1;
     }
 
     public String getCCCD() {

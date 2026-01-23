@@ -12,10 +12,12 @@ public class classCon extends classCha {
     public String MSSV;
 
     public classCon() {
+        super();
         System.out.println("Constructor Thằng Con");
     }
 
     public classCon(String MSSV) {
+        super();
         this.MSSV = MSSV;
     }
 

@@ -9,13 +9,22 @@ package Models;
  * @author Dell
  */
 public class Polygon {
+    
     public String Name;
+    
+    public static int tongSo = 0;
+    
+    public static void inThongTin(int infor){
+        System.out.println(infor);
+    }
 
     public Polygon(String Name) {
         this.Name = Name;
+        this.tongSo = this.tongSo + 1;
     }
 
     public Polygon() {
+        this.tongSo = this.tongSo + 1;
     }
 
     public String getName() {

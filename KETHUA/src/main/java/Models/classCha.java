@@ -12,10 +12,12 @@ public class classCha extends classOngNoi {
     public String Mobile;
 
     public classCha() {
+        super();
         System.out.println("Constructor ông Già");
     }
 
     public classCha(String Mobile) {
+        super();
         this.Mobile = Mobile;
     }
 

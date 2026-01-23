@@ -17,10 +17,12 @@ public class ChimDaiBang extends Animal_2chi {
         super(Name);
     }
 
+    @Override
     public String getName() {
         return Name;
     }
 
+    @Override
     public void setName(String Name) {
         this.Name = Name;
     }
